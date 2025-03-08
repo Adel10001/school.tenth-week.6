@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> اختبار قصير في بطاقة الأسبوع العاشر</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+            background-color: #f9f9f9;
+            margin: 20px;
+        }
+        .quiz-container {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            max-width: 600px;
+            margin: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .question {
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .options {
+            margin-bottom: 20px;
+            text-align: right;
+        }
+        .options label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .submit-btn {
+            display: block;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 60px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: auto;
+        }
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+        .result {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+        .correct p {
+            color: green;
+        }
+        .incorrect p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1> اختبار قصير في بطاقة الأسبوع العاشر</h1>
+
+        <!-- السؤال الأول -->
+        <div class="question" id="q1-container">
+            <p>1. ما هو مفهوم السلسلة الغذائية؟</p>
+            <div class="options">
+                <label><input type="radio" name="q1" value="c">   إنتاج الغذاء من الطاقة الشمسية .</label>
+                <label><input type="radio" name="q1" value="b">  انتقال المادة الغذائية (الطاقة) من كائن حي إلى كائن حي آخر .</label>
+               	<label><input type="radio" name="q1" value="a">   استهلاك الطاقة بواسطة النباتات .</label>			
+							
+            </div>
+        </div>
+		
+        <!-- السؤال الثاني -->
+        <div class="question" id="q2-container">
+            <p>2. ما الذي يميز المنتجات عن المستهلكات؟</p>
+            <div class="options">
+                <label><input type="radio" name="q2" value="a">  تحصل على غذائها من كائنات أخرى .</label>
+                <label><input type="radio" name="q2" value="b">  تصنع غذاءها بنفسها.</label>
+                <label><input type="radio" name="q2" value="c">  تعيش في أعماق البحار فقط .</label>
+            </div>
+        </div>
+
+        <!-- السؤال الثالث -->
+        <div class="question" id="q3-container">
+            <p>3. ما هي المواد الأساسية التي تحتاجها عملية البناء الضوئي؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q3" value="a">  ضوء الشمس وثاني أكسيد الكربون والماء .</label>
+                <label><input type="radio" name="q3" value="b"> الماء والأكسجين  .</label>
+                <label><input type="radio" name="q3" value="c"> الغذاء الجاهز من التربة .</label>
+            </div>
+        </div>
+
+
+        <!-- السؤال الرابع -->
+        <div class="question" id="q4-container">
+            <p>4. إذا تمت إزالة جميع المنتجات من النظام البيئي، فما التأثير المتوقع على السلسلة الغذائية؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q4" value="a">  لن يكون هناك تأثير كبير .</label>
+                <label><input type="radio" name="q4" value="b">   ستنقرض المستهلكات لعدم توفر مصدر غذائي لها  .</label>
+                <label><input type="radio" name="q4" value="c">  ستعتمد المستهلكات على ثاني أكسيد الكربون كمصدر للطاقة.</label>
+            </div>
+        </div>
+
+        <!-- السؤال الخامس -->
+        <div class="question" id="q5-container">
+            <p>5. كيف يمكن أن تؤثر إزالة الغابات على معدل حدوث عمليتي البناء الضوئي والتنفس في الغلاف الجوي؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q5" value="a">  ستزيد نسبة الأكسجين في الهواء .</label>
+                <label><input type="radio" name="q5" value="b"> ستقل نسبة ثاني أكسيد الكربون في الجو .</label>
+                <label><input type="radio" name="q5" value="c">  ستقل نسبة الأكسجين في الجو مما قد يؤثر على الكائنات الحية .</label>
+            </div>
+        </div>
+		<!-- السؤال السادس -->
+        <div class="question" id="q6-container">
+            <p>6. في يوم غائم وممطر، أي من العمليات التالية من المرجح أن ينخفض معدل حدوثها في النباتات؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q6" value="b">   التنفس فقط.</label>
+				<label><input type="radio" name="q6" value="a">  البناء الضوئي فقط  .</label>
+                <label><input type="radio" name="q6" value="c">  التنفس والبناء الضوئي معًا.</label>
+            </div>
+        </div>
+		
+				<!-- السؤال السابع -->
+        <div class="question" id="q7-container">
+            <p>7. ما العلاقة بين النظام الغذائي الصحي ومستوى طاقة الجسم؟</p>
+            <div class="options">
+                <label><input type="radio" name="q7" value="b">  تناول الأطعمة الصحية يوفر الطاقة اللازمة للأنشطة اليومية .</label>
+				<label><input type="radio" name="q7" value="a">  تناول الأطعمة الصحية يؤدي إلى الشعور بالتعب.</label>
+                <label><input type="radio" name="q7" value="c">  يمكن للجسم إنتاج طاقة كافية بدون الحاجة إلى غذاء صحي.</label>
+            </div>
+        </div>
+
+				<!-- السؤال الثامن -->
+        <div class="question" id="q8-container">
+            <p>8. كيف تساعد الطبقة الشمعية في ورقة النبات؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q8" value="b"> زيادة امتصاص الماء .</label>
+				<label><input type="radio" name="q8" value="a"> تسريع عملية البناء الضوئي .</label>
+                <label><input type="radio" name="q8" value="c">  تقليل تبخر الماء .</label>
+            </div>
+        </div>
+		
+				<!-- السؤال التاسع -->
+        <div class="question" id="q9-container">
+            <p>9.لماذا معدل حدوث عملية البناء الضوئي يكون أعلى في النهار؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q9" value="b">   لأن معدل استهلاك الغذاء يكون أعلى .</label>
+				<label><input type="radio" name="q9" value="a">  لأن ضوء الشمس متوفر  .</label>
+                <label><input type="radio" name="q9" value="c">  لأن النبات لا يحتاج إلى الأكسجين .</label>
+            </div>
+        </div>
+				<!-- السؤال العاشر -->
+        <div class="question" id="q10-container">
+            <p>10. في إحدى الليالي، قرر عمر أن يضع نبتته الصغيرة في خزانة مغلقة لمدة يومين ليرى ما سيحدث. عندما أخرجها، لاحظ أن أوراقها بدأت تذبل وأصبح لونها باهتًا. تساءل عن السبب، فتذكر درس العلوم عن عمليات النبات.
+ما هو السبب المحتمل لذبول النبتة؟</p>
+            <div class="options">
+                <label><input type="radio" name="q10" value="b"> عدم حصولها على ضوء الشمس اللازم لعملية البناء الضوئي .</label>
+				<label><input type="radio" name="q10" value="a">  امتصاصها كمية زائدة من ثاني أكسيد الكربون .</label>
+                <label><input type="radio" name="q10" value="c">   إنتاجها كمية كبيرة من الأكسجين .</label>
+            </div>
+        </div>
+		
+        <button class="submit-btn" onclick="calculateResult()">إرسال الإجابات</button>
+        <div class="result" id="result"></div>
+    </div>
+	
+
+    <script>
+        function calculateResult() {
+            const answers = {
+                q1: 'b',
+                q2: 'b',
+                q3: 'a',
+                q4: 'b',
+                q5: 'c',
+				q6: 'a',
+				q7: 'b',
+				q8: 'c',
+				q9: 'a',
+				q10:'b',
+            };
+
+            let score = 0;
+
+            for (let question in answers) {
+                const container = document.getElementById(`${question}-container`);
+                const userAnswer = document.querySelector(`input[name="${question}"]:checked`);
+
+                if (userAnswer) {
+                    if (userAnswer.value === answers[question]) {
+                        score++;
+                        container.classList.add('correct');
+                        container.classList.remove('incorrect');
+                    } else {
+                        container.classList.add('incorrect');
+                        container.classList.remove('correct');
+                    }
+                } else {
+                    container.classList.remove('correct');
+                    container.classList.add('incorrect');
+                }
+            }
+
+            const resultDiv = document.getElementById('result');
+            resultDiv.textContent = `لقد أجبت على : ${score} من 10 أسئلة`;
+        }
+    </script>
+</body>
+</html>
